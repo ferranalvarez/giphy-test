@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		582479791EF183C700565C17 /* GiphyPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582479781EF183C700565C17 /* GiphyPhotosViewController.swift */; };
+		5824797B1EF183D200565C17 /* GiphyPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5824797A1EF183D200565C17 /* GiphyPhotoCell.swift */; };
 		58617D751EF02FDA00B3AFB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58617D741EF02FDA00B3AFB3 /* AppDelegate.swift */; };
-		58617D771EF02FDA00B3AFB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58617D761EF02FDA00B3AFB3 /* ViewController.swift */; };
 		58617D7A1EF02FDA00B3AFB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58617D781EF02FDA00B3AFB3 /* Main.storyboard */; };
 		58617D7C1EF02FDA00B3AFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58617D7B1EF02FDA00B3AFB3 /* Assets.xcassets */; };
 		58617D7F1EF02FDA00B3AFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58617D7D1EF02FDA00B3AFB3 /* LaunchScreen.storyboard */; };
 		58617D8C1EF0339600B3AFB3 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58617D871EF0339600B3AFB3 /* iOSDevCenters+GIF.swift */; };
 		58617D8D1EF0339600B3AFB3 /* GiphyPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58617D891EF0339600B3AFB3 /* GiphyPhoto.swift */; };
 		58617D8E1EF0339600B3AFB3 /* GiphyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58617D8B1EF0339600B3AFB3 /* GiphyService.swift */; };
-		58617D911EF0341700B3AFB3 /* GiphyPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58617D8F1EF0341700B3AFB3 /* GiphyPhotoCell.swift */; };
-		58617D921EF0341700B3AFB3 /* GiphyPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58617D901EF0341700B3AFB3 /* GiphyPhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		582479781EF183C700565C17 /* GiphyPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyPhotosViewController.swift; sourceTree = "<group>"; };
+		5824797A1EF183D200565C17 /* GiphyPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyPhotoCell.swift; sourceTree = "<group>"; };
 		58617D711EF02FDA00B3AFB3 /* giphy-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "giphy-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58617D741EF02FDA00B3AFB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58617D761EF02FDA00B3AFB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		58617D791EF02FDA00B3AFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58617D7B1EF02FDA00B3AFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58617D7E1EF02FDA00B3AFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,8 +30,6 @@
 		58617D871EF0339600B3AFB3 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 		58617D891EF0339600B3AFB3 /* GiphyPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyPhoto.swift; sourceTree = "<group>"; };
 		58617D8B1EF0339600B3AFB3 /* GiphyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyService.swift; sourceTree = "<group>"; };
-		58617D8F1EF0341700B3AFB3 /* GiphyPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GiphyPhotoCell.swift; path = ../GiphyPhotoCell.swift; sourceTree = "<group>"; };
-		58617D901EF0341700B3AFB3 /* GiphyPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyPhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,7 @@
 		582479761EF1812700565C17 /* cells */ = {
 			isa = PBXGroup;
 			children = (
-				58617D8F1EF0341700B3AFB3 /* GiphyPhotoCell.swift */,
+				5824797A1EF183D200565C17 /* GiphyPhotoCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -56,7 +54,7 @@
 		582479771EF1812700565C17 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				58617D761EF02FDA00B3AFB3 /* ViewController.swift */,
+				582479781EF183C700565C17 /* GiphyPhotosViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -86,7 +84,6 @@
 				58617D881EF0339600B3AFB3 /* model */,
 				58617D8A1EF0339600B3AFB3 /* services */,
 				58617D741EF02FDA00B3AFB3 /* AppDelegate.swift */,
-				58617D901EF0341700B3AFB3 /* GiphyPhotosViewController.swift */,
 				58617D781EF02FDA00B3AFB3 /* Main.storyboard */,
 				58617D7B1EF02FDA00B3AFB3 /* Assets.xcassets */,
 				58617D7D1EF02FDA00B3AFB3 /* LaunchScreen.storyboard */,
@@ -192,11 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58617D771EF02FDA00B3AFB3 /* ViewController.swift in Sources */,
 				58617D8C1EF0339600B3AFB3 /* iOSDevCenters+GIF.swift in Sources */,
-				58617D911EF0341700B3AFB3 /* GiphyPhotoCell.swift in Sources */,
-				58617D921EF0341700B3AFB3 /* GiphyPhotosViewController.swift in Sources */,
 				58617D8D1EF0339600B3AFB3 /* GiphyPhoto.swift in Sources */,
+				5824797B1EF183D200565C17 /* GiphyPhotoCell.swift in Sources */,
+				582479791EF183C700565C17 /* GiphyPhotosViewController.swift in Sources */,
 				58617D751EF02FDA00B3AFB3 /* AppDelegate.swift in Sources */,
 				58617D8E1EF0339600B3AFB3 /* GiphyService.swift in Sources */,
 			);
