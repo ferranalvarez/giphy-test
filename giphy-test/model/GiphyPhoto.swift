@@ -1,0 +1,1 @@
+import UIKitclass GiphyPhoto {      let embedUrl : String  var thumbnail : UIImage?    init (url:String) {    self.embedUrl = url      }  }
